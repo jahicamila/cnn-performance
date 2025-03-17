@@ -9,10 +9,10 @@ The objective is to classify each image as either showing pneumonia or being nor
 Before training the model, the image resolutions were adjusted using various interpolation methodes to assess the performance of the Convolutional Neural Network (CNN) across different resolution-method combinations.
 
 The resolutions tested included 32x32, 64x64, 128x128, and 256x256, while the following four interpolation methods were applied:
-Nearest Neighbor Interpolation
-Bilinear Interpolation
-Bicubic Interpolation
-Lanczos Interpolation
+ - Nearest Neighbor Interpolation
+ - Bilinear Interpolation
+ - Bicubic Interpolation
+ - Lanczos Interpolation
 
 ### Model Training
 A Convolutional Neural Network (CNN) was trained on the preprocessed images to classify them as either normal or pneumonia-positive. The performance of the model was evaluated for each combination of resolution and interpolation method.
